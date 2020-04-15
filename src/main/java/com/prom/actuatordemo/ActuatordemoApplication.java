@@ -1,11 +1,7 @@
-package io.spring2go.promdemo.actuatordemo;
+package com.prom.actuatordemo;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.context.annotation.Bean;
-
-import io.micrometer.core.instrument.MeterRegistry;
-import org.springframework.boot.actuate.autoconfigure.metrics.MeterRegistryCustomizer;
 
 @SpringBootApplication
 public class ActuatordemoApplication {

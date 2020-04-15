@@ -1,4 +1,4 @@
-package io.spring2go.promdemo.actuatordemo;
+package com.prom.actuatordemo;
 
 import io.micrometer.core.instrument.*;
 import org.springframework.beans.factory.annotation.Autowired;

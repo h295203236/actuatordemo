@@ -1,10 +1,10 @@
-package io.spring2go.promdemo.actuatordemo;
+package com.prom.actuatordemo;
 
 import org.junit.jupiter.api.Test;
 
 public class ActuatordemoApplicationTest {
 
     @Test
-    void sayHello() {
+    void sayHi() {
     }
 }

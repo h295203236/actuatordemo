@@ -1,4 +1,4 @@
-package io.spring2go.promdemo.actuatordemo;
+package com.prom.actuatordemo;
 
 import io.micrometer.core.instrument.Counter;
 import io.micrometer.core.instrument.Gauge;

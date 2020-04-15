@@ -1,0 +1,9 @@
+server.port: 8080
+spring.application.name: app1
+management:
+  server.port: 10080
+  endpoints:
+    web.exposure.include: '*'
+    base-path: /management
+  # 全局通用tag标识application name
+  metrics.tags.application: ${spring.application.name}
